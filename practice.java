@@ -64,3 +64,32 @@ package oops.cat;
 public class Cat {
     int limbs=4;
 }
+
+package oops.ExampleStatic;
+import java.util.Scanner;
+
+public class CylinderMain {
+    public static void main(String[] args){
+        Cylinder c=new Cylinder();
+        Scanner s=new Scanner(System.in);
+
+        System.out.println("enter the radious: ");
+        c.radious=s.nextFloat();
+        System.out.println("Area is: "+c.area());
+
+    }
+}
+
+package oops.ExampleStatic;
+
+public class Cylinder {
+       public static float pi=22/7f;
+       public float radious;
+
+       public float area(){
+           radious=(Cylinder.pi*radious*radious);
+           return radious;
+       }
+
+}
+
