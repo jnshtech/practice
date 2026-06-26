@@ -35,3 +35,32 @@ public class demo
         System.out.println("name is " + hu.getName());
     }
 }
+
+
+package oops.cat;
+
+public class CatMain {
+    public static void main(String[] args){
+        Orange o=new Orange();
+        System.out.println("hi "+o.type);
+        Lion l=new Lion();
+        System.out.println("lion is: "+l.type);
+    }
+
+
+}
+
+
+package oops.cat;
+
+public class DomesticCat extends Cat{
+    String type="domestic";
+    String color="any color";
+}
+
+
+package oops.cat;
+
+public class Cat {
+    int limbs=4;
+}
