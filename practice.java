@@ -94,9 +94,6 @@ public class Cylinder {
 
 
 
-
-
-
 package oops.InerfaceExample;
 
 interface Child1{
@@ -104,21 +101,4 @@ interface Child1{
     void sub();
 }
 
-class Child implements Child1{
-            @Override
-            public void add(int a) {
-                System.out.println("add");
-            }
-
-            @Override
-            public void sub() {
-                System.out.println("sub");
-            }
-        public static void main(String[] args){
-                Child ch=new Child();
-                ch.add(10);
-                ch.sub();
-        }
-
-    }
 
