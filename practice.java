@@ -136,6 +136,23 @@ public class PrimeNumberOrNot {
 		int num=s.nextInt();
 		
 		boolean isPrime=true;
+
+        int i=2;
+		
+		while(i<num)
+		{
+			if(num%i==0)
+			{
+				isPrime=false;
+				break;
+			}
+			
+			i++;
+			
+		}
+		
+		
+
 		
 		
 
