@@ -121,3 +121,21 @@ class Child implements Child1{
     }
 
 
+    package test.loopingexamples;
+import java.util.*;
+
+public class PrimeNumberOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter Number:");
+		
+		int num=s.nextInt();
+		
+		boolean isPrime=true;
+		
+		
+
