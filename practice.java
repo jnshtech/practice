@@ -175,6 +175,26 @@ int j=num-1;
 			}
 			
 			int n=1;
+            while(n<=2*j-1)
+			{
+				
+				
+				System.out.print("* ");
+				
+				n++;
+			}
+			
+			
+			System.out.print("\n");
+			
+			j--;
+		}
+		
+
+	}
+
+}
+
 			
 			
 		
