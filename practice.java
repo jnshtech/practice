@@ -235,6 +235,39 @@ public class DiamondPatternClass {
 			System.out.print("\n");
 			i++;
 		}
+        int j=num-1;
+		
+		while(j>=1)
+		{
+			int m=1;
+			while(m<=num-j)
+			{
+				System.out.print("  ");
+				
+				m++;
+			}
+			
+			int n=1;
+			
+			while(n<=2*j-1)
+			{
+				
+				
+				System.out.print("* ");
+				
+				n++;
+			}
+			
+			
+			System.out.print("\n");
+			
+			j--;
+		}
+		
+
+	}
+
+}
 		
 		
 		
