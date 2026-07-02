@@ -323,19 +323,30 @@ public class ArrayExampleClass {
         Student[] sArr=new Student[5];
         
         Scanner s=new Scanner(System.in);
+         for(int i=0;i<sArr.length;i++)
+        {
+        System.out.println("Enter FirstName:");
         
-       
+        String fName=s.next();
+        System.out.println("Enter LastName:");
+        String lName=s.next();
+        System.out.println("Enter Age:");
+        int age=s.nextInt();
+        System.out.println("Enter Phone Number");
+        String phNo=s.next();
+        
+        Student s2=new Student(fName,lName,age,phNo);
+        
+        sArr[i]=s2;	
+        	
+        }
+        
+        for(int i=0;i<sArr.length;i++)
+        {
+        	System.out.println(sArr[i]);
+        }
+        
+        
+	}
 
-		
-		
-		
-		
-
-			
-			
-		
-		
-
-		
-		
-
+}
