@@ -268,6 +268,32 @@ public class DiamondPatternClass {
 	}
 
 }
+
+package test.arrayclassexamples;
+
+public class Student {
+	
+	String firstName;
+	String lastName;
+	int age;
+	String phoneNumber;
+	
+	public Student(String fName,String lName,int a,String phNo)
+	{
+		firstName=fName;
+		lastName=lName;
+		age=a;
+		phoneNumber=phNo;
+	}
+	
+	public String toString()
+	{
+		
+		return "FirstName:"+firstName+",LastName:"+lastName+",Age:"+age+",PhoneNumber:"+phoneNumber;
+	}
+
+}
+
 		
 		
 		
