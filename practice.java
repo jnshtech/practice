@@ -294,6 +294,38 @@ public class Student {
 
 }
 
+package test.arrayclassexamples;
+
+import java.util.*;
+
+public class ArrayExampleClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr=new int[5];
+		
+		
+		
+		for(int i=0;i<arr.length;i++) {
+			
+			arr[i]=10*(i+1);
+			
+			System.out.println("Value in ["+i+"] is :"+arr[i]);
+			
+			
+			
+		}
+		
+		System.out.println("Value in 3rd position:"+arr[2]);
+        System.out.println(arr);
+        
+        Student[] sArr=new Student[5];
+        
+        Scanner s=new Scanner(System.in);
+        
+       
+
 		
 		
 		
