@@ -350,3 +350,8 @@ public class ArrayExampleClass {
 	}
 
 }
+
+package crick;
+
+public class Array {
+    
