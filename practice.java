@@ -356,5 +356,10 @@ package crick;
 public class Array {
 	public static void main(String[] args){
         String a[]={"jenish"};
+		for(String d:a){
+            System.out.println(d);
+        }
+    }
+}
         
     
