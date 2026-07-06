@@ -374,5 +374,11 @@ public class Whilepractice {
             for(int j=0;j<arr[i].length;j++){
                 arr[i][j]=x;
                 x++;
-                       
+                    System.out.print(" "+x+" " );
+            }
+            System.out.println(" ]\n");
+        }
+    }
+}
+    
     
