@@ -361,5 +361,13 @@ public class Array {
         }
     }
 }
+
+package arrays.examples.in;
+
+public class Whilepractice {
+
+    public static void main(String[] args) {
+        int[][] arr=new int[3][3];
+        
         
     
