@@ -380,5 +380,15 @@ public class Whilepractice {
         }
     }
 }
-    
+   
+package test.myinterfaces;
+
+public interface Operators{
+
+	int a=10;
+	
+	public void add();
+	public void sub();
+	
+}
     
