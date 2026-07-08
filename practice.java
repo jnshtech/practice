@@ -416,3 +416,32 @@ public abstract class MyOperatorsAbstractClass {
 	}
 
 }
+
+package test.myinterfaces;
+
+public class MyOperatorsChildClass extends MyOperatorsAbstractClass{
+	
+
+	
+	
+	public MyOperatorsChildClass(int c,int d)
+	{
+		super(c,d);
+	}
+	
+	public void add()
+	{
+		System.out.println("Parent a and b sum is :"+(a+b));
+	}
+	
+	public void sub()
+	{
+		System.out.println("Parent a and b sub is :"+(a-b));
+	}
+	
+	public void add(int e,int f)
+	{
+		System.out.println("Stack integer sum is :"+(e+f));
+	}
+
+}
