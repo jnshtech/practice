@@ -391,4 +391,28 @@ public interface Operators{
 	public void sub();
 	
 }
-    
+ 
+package test.myinterfaces;
+
+public abstract class MyOperatorsAbstractClass {
+	
+	int a,b;
+	
+	
+	public MyOperatorsAbstractClass(int a,int b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+	
+	public abstract void add();
+	public abstract void sub();
+	
+
+	
+	public void add(String str1,String str2)
+	{
+		System.out.println("Stack string concatenation is :"+str1+" "+str2);;
+	}
+
+}
