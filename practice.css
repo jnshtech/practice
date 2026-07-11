@@ -388,25 +388,3 @@ header .logo{
 }
 
 
-.Hero-page{
-    height: 300px;
-}
-.Hero-page .layer{
-    height: 300px;
-}
-.hero-content{
-    width: inherit;
-    padding: 30px 10px;
-    /* align-items: center; */
-    
-}
-
-.hero-content p{
-    
-    width: 280px;
-    font-size: 13px;
-    padding: 10px 10px;
-    /* margin: 0px; */
-}
-
-}
