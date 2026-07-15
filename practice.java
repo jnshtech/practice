@@ -491,5 +491,15 @@ public class Division {
 			System.err.println("Index cannot be greater than :"+(arr.length-1));
 			
 		}
+		catch(Exception e)
+		{
+			
+		}
+		finally 
+		{
+			System.out.println("Connection closed");
+		}
 		
-		
+	}
+
+}
