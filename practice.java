@@ -473,6 +473,23 @@ public class Division {
 		dc.getDay();
 		
 		System.out.println("Converted number is :"+d);
-		
+		}
+		catch(ArithmeticException ae)
+		{
+			System.err.println("B cannot be zero. Cannot divide by zero");
+		}
+		catch(NumberFormatException nfe)
+		{
+			System.err.println("String :"+str+" . cannot be converted to number");
+		}
+		catch(NullPointerException ne)
+		{
+			System.err.println("Date object is null");
+		}
+		catch(ArrayIndexOutOfBoundsException aie)
+		{
+			System.err.println("Index cannot be greater than :"+(arr.length-1));
+			
+		}
 		
 		
