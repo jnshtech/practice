@@ -445,3 +445,34 @@ public class MyOperatorsChildClass extends MyOperatorsAbstractClass{
 	}
 
 }
+package test.myexceptionexamples;
+
+public class Division {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=5;
+		String str="10";
+		
+		DateClass dc=null;
+		
+		int[] arr=new int[5];
+		try
+		{
+		int c=a/b;
+		System.out.println("The divident is :"+c);
+		
+		
+		arr[3]=25;
+		int d=Integer.parseInt(str);
+		
+		dc=DateClass.createDate(28, 2, 2026);
+		
+		dc.getDay();
+		
+		System.out.println("Converted number is :"+d);
+		
+		
+		
