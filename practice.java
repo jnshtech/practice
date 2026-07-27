@@ -524,3 +524,20 @@ public class ForLoopExample {
           }
     }
 }
+
+package test.mymultisthreadingexamples;
+
+public class Thread1 {
+	
+	Thread t1;
+	
+	Class1 c1;
+	
+	public Thread1(Class1 c1)
+	{
+		t1=new Thread(new ThreadClass(c1),"Thread1");
+		t1.start();
+	}
+	
+
+}
