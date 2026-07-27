@@ -541,3 +541,39 @@ public class Thread1 {
 	
 
 }
+
+package test.mymultisthreadingexamples;
+
+public class Thread2 extends Thread{
+	
+	Class2 c2;
+	
+	
+	public Thread2(Class2 c2)
+	{
+		this.c2=c2;
+		start();
+	}
+	
+	public void run()
+	{
+		
+		
+		for(int i=11;i<20;i++)
+		{
+			
+			System.out.println("Counter ["+i+"] processing:"+c2.method2());
+			try
+			{
+				Thread.sleep(3000);
+			}
+			catch(InterruptedException ie)
+			{
+				ie.printStackTrace();
+			}
+			
+		}
+	}
+
+}
+
