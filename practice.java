@@ -576,4 +576,17 @@ public class Thread2 extends Thread{
 	}
 
 }
+package test.mymultisthreadingexamples;
+
+public class ThreadMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread1 t1=new Thread1(new Class1());
+		Thread2 t2=new Thread2(new Class2());
+
+	}
+
+}
 
