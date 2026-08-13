@@ -261,3 +261,25 @@ for(person of details){
 }
 
 
+import React,{useEffect,useState}from "react";
+
+function Timer(){
+     const [count, setCount] = useState(0);
+useEffect(()=>{
+    console.log("effect is running.....")
+    const intervel=setInterval(()=>{
+        setCount((prev)=>prev+1);
+    },1000);
+    return ()=>{
+        console.log("working....");
+        clearInterval(intervel)
+    };
+},[]);
+
+return(
+    <div>
+        <h1>{count}</h1>
+    </div>
+);
+}
+export default Timer;
