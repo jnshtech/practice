@@ -305,3 +305,12 @@ return(
 )
 
 export default RenderCount 
+
+function ArrayRendering() {
+  const students = ["Jeeva", "Rahul", "Priya", "Anu"];
+
+  return (
+    <div>
+      <h2>Student List</h2>
+      <ul>
+        
