@@ -283,3 +283,25 @@ return(
 );
 }
 export default Timer;
+import { useState, useEffect, useRef} from "react"
+
+function RenderCount(){
+    const [name, setName]=useState("");
+    const rendercount=useRef(0);
+    console.log(rendercount);
+    useEffect((
+
+
+    )=>{
+        console.log("effecting");
+        rendercount.current=rendercount.current;
+    });
+
+}
+return(
+    <div>
+        <h1>name</h1>
+    </div>
+)
+
+export default RenderCount 
