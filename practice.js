@@ -313,4 +313,9 @@ function ArrayRendering() {
     <div>
       <h2>Student List</h2>
       <ul>
-        
+        {students.map((val, ind) => {
+          const a = ind+2
+          return <li key={ a }>{val}</li>;
+        })}
+      </ul>
+   
