@@ -596,4 +596,10 @@ public class ThreadMain {
         String reverse="";
         System.out.println(j.charAt(0));
         System.out.println(j.length());
-        
+        for(int i=j.length()-1;i>=0;i--){
+            reverse+=j.charAt(i);
+        }
+        System.out.println(reverse);
+        if(j.equals(reverse)){
+            System.out.println("it is palindrome");
+        }
