@@ -590,3 +590,10 @@ public class ThreadMain {
 
 }
 
+ public class Myown {
+    public static void main(String[] args){
+        String j="mam";
+        String reverse="";
+        System.out.println(j.charAt(0));
+        System.out.println(j.length());
+        
