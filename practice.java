@@ -603,3 +603,8 @@ public class ThreadMain {
         if(j.equals(reverse)){
             System.out.println("it is palindrome");
         }
+		else {
+            System.out.println("it is not");
+        }
+    }
+}
