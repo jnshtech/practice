@@ -26,4 +26,17 @@ select c.customer_name,count(c.customer_name)
    on c.customer_id=o.customer_id
     group by c.customer_name
      having count(c.customer_name)>1;
-	
+
+select c.customer_name,sum(ord.quantity*p.price) as final
+  from customers as c 
+   join orders as o
+    on c.customer_id=o.customer_id
+     join orderdetails as ord
+       on ord.order_id=o.order_id
+        join products as p
+         on p.product_id=ord.product_id
+          group by c.customer_name
+          order by final desc
+           limit 1;
+          
+
