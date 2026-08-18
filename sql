@@ -39,4 +39,11 @@ select c.customer_name,sum(ord.quantity*p.price) as final
           order by final desc
            limit 1;
           
-
+select e.name,e.salary
+ from departments as d
+  join employees as e
+   on d.department_id=e.department_id
+   where e.salary > (select avg(d2.salary) 
+                   from employees d2
+                     where d2.department_id=d.department_id);
+	
